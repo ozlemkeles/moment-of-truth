@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.2/tsparticles.confetti.bundle.min.js"></script>
+    <title>Nice or Naughty? Moment of Truth</title>
+  </head>
+  <body>
+    <div class="title">
+      <h1>
+        Nice or Naughty? <br />
+        Moment of Truth
+      </h1>
+    </div>
+    <div class="container">
+      <div class="cartoon hb">
+        <div class="leg ha"></div>
+        <div class="leg ha"></div>
+        <div class="hands r"></div>
+        <div class="arm"></div>
+        <div class="body">
+          <div class="belt"></div>
+          <div class="buttons r"></div>
+        </div>
+        <div class="beard"></div>
+        <div class="head r"></div>
+        <div class="mustache"></div>
+        <div class="mustache"></div>
+        <div class="cheeks r"></div>
+        <div class="eyes r"></div>
+        <div class="hat ha hb"></div>
+      </div>
+      <div class="chat-container">
+        <div id="chatbox">
+          <!-- Chat messages will be displayed here -->
+        </div>
+        <div id="input-container">
+          <button onclick="submitAnswer('yes')">Yes</button>
+          <button onclick="submitAnswer('no')">No</button>
+        </div>
+      </div>
+      <div id="confetti-container" class="confetti-container"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
