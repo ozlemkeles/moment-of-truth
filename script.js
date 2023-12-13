@@ -12,6 +12,15 @@ let score = 0;
 let resultShown = false;
 
 document.addEventListener("DOMContentLoaded", function () {
+  const backgroundMusic = document.getElementById("backgroundMusic");
+  const playButton = document.getElementById("playButton");
+
+  playButton.addEventListener("click", function () {
+    backgroundMusic.play();
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
   showQuestion();
 });
 

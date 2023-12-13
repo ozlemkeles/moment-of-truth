@@ -33,9 +33,7 @@
         <div class="hat ha hb"></div>
       </div>
       <div class="chat-container">
-        <div id="chatbox">
-          <!-- Chat messages will be displayed here -->
-        </div>
+        <div id="chatbox"></div>
         <div id="input-container">
           <button onclick="submitAnswer('yes')">Yes</button>
           <button onclick="submitAnswer('no')">No</button>
@@ -44,5 +42,13 @@
       <div id="confetti-container" class="confetti-container"></div>
     </div>
     <script src="script.js"></script>
+    <audio id="backgroundMusic" loop>
+      <source
+        src="Mariah Carey - All I Want For Christmas Is You (Lyrics).mp3"
+        type="audio/mp3"
+      />
+      Your browser does not support the audio element.
+    </audio>
+    <button id="playButton">Play Background Music</button>
   </body>
 </html>

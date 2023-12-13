@@ -325,7 +325,31 @@ button {
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: rgb(32, 76, 28);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+#playButton {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  padding: 10px;
+  border: none;
+  background-color: #4caf50;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#playButton:hover {
+  background-color: rgb(32, 76, 28);
 }
 
 .confetti-container {
